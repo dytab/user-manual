@@ -19,7 +19,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           name: "github-pages"
-          path: "screenshot.cy.ts"
+          path: "screenshots.cy.ts"
 
   publish-gh-pages:
     needs: main
